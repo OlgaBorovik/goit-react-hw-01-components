@@ -1,0 +1,45 @@
+.profile{
+    display: block;
+    width: 250px;
+    background-color: aquamarine;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+   
+}
+
+.description{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.avatar{
+width: 80%;
+
+}
+.name{
+font-size: 36px;
+font-weight: 700px;
+}
+.tag{
+font-size: 18px;
+}
+.location{
+font-size: 18px;
+}
+.stats{
+    display: flex;
+    list-style: none;
+    background-color: gray;
+}
+.statsItem{
+    width:calc(100%/3-30px)
+}
+.label{
+font-size: 16px;
+}
+.quantity{
+font-size: 16px;
+font-weight: 700;
+}

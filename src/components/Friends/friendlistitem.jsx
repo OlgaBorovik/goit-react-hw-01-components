@@ -1,4 +1,4 @@
-import friends from '../friends.json'
+import friends from './friendlist'
 import PropTypes from 'prop-types'
 
 export const FriendListItem = ({friend: {avatar, name, isOnline}}) => {
