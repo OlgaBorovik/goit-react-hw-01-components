@@ -4,7 +4,7 @@ import css from './profile.module.css'
 
 
 export const Profile = ( { username, tag, location, avatar, stats }) =>
-    <div className={css.profile}>
+  <div className={css.profile}>
   <div className={css.description}>
     <img
       src={avatar}
@@ -34,10 +34,10 @@ export const Profile = ( { username, tag, location, avatar, stats }) =>
 
 
 Profile.propTypes = {
-    username: PropTypes.string,
-        tag: PropTypes.string,
-        location: PropTypes.string,
+    username: PropTypes.string.isRequired,
+        tag: PropTypes.string.isRequired,
+        location: PropTypes.string.isRequired,
         
-        avatar: PropTypes.string,
-        stats: PropTypes.objectOf(PropTypes.number)
+        avatar: PropTypes.string.isRequired,
+        stats: PropTypes.objectOf(PropTypes.number).isRequired
 }

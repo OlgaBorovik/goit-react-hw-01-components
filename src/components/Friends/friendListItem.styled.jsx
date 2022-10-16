@@ -9,10 +9,13 @@ display:flex;
 justify-content: start;
 align-item: center;
 margin-bottom: 16px;
+background-color: white;
 border: 1px solid grey;
 border-radius: 10px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 padding: 8px;
+margin-left: auto;
+margin-right: auto;
 `;
 export const Avatar = styled.img`
 margin-right: 16px;
@@ -33,6 +36,7 @@ background-color: ${(({status}) => {
 
 export const FriendsList = styled.ul`
 list-style: none;
+display:block;
 `;
 
 export const Name = styled.p`

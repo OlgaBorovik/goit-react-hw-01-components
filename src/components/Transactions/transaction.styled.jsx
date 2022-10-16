@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Table = styled.table`
 width: 480px;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
 `;
 
 export const TableHead = styled.thead`
