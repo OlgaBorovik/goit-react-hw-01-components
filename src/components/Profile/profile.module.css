@@ -1,7 +1,7 @@
 .profile{
     display: block;
-    width: 250px;
-    background-color: aquamarine;
+    width:350px;
+    background-color: white;
     justify-content: center;
     border: 1px solid black;
     border-radius: 10px;
@@ -12,32 +12,47 @@
 .description{
     font-size: 24px;
     background-color: white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    padding: 8px;
 }
 .avatar{
 width: 80%;
+border-radius: 50%;
 
 }
 .name{
-font-size: 36px;
-font-weight: 700px;
+font-size: 24px;
+font-weight: 700;
+/* font-style: italic; */
 }
 .tag{
 font-size: 18px;
+color: gray;
 }
 .location{
 font-size: 18px;
+color: gray;
 }
 .stats{
     display: flex;
     list-style: none;
-    background-color: gray;
+    
+    margin: 0;
+    height: 75px;
+    padding: 0
 }
 .statsItem{
-    width:calc(100%/3-30px)
+    width:calc(100% / 3 -30px);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightgrey;
+    
+
 }
 .label{
 font-size: 16px;
+margin-bottom: 4px;
 }
 .quantity{
 font-size: 16px;

@@ -18,10 +18,14 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      {/* <Statistics
+      <Statistics
         title="Upload stats"
-        // stats={data} */}
-      {/* /> */}
+        stats={data}
+      />
+      <Statistics
+        
+        stats={data}
+      />
 
      <>
       <FriendList friends={(friends)}
