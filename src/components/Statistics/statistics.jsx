@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import stats from './data.json'
+// import stats from './data.json'
 import { StatList, StatItem, StatSection } from './statistics.styled'
 
 export const Statistics = ({title, stats}) => {
