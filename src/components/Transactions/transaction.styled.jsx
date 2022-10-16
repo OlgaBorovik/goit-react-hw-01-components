@@ -15,6 +15,7 @@ height: 30px;
 
 export const TableBodyRow = styled.tr`
 height: 30px;
+text-align: center;
 :nth-child(even){
     background-color: lightgrey
 }

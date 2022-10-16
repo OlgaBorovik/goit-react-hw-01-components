@@ -1,4 +1,4 @@
-import friends from './friendlist'
+// import friends from './friendlist'
 import PropTypes from 'prop-types'
 import { FriendContainer, Avatar, Status, Name } from './friendListItem.styled'
 
