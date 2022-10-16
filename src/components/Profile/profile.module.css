@@ -70,8 +70,10 @@ margin: 8px;
 .label{
 font-size: 16px;
 margin-bottom: 4px;
+text-align: center;
 }
 .quantity{
 font-size: 16px;
 font-weight: 700;
+text-align: center;
 }
